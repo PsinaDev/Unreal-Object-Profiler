@@ -23,6 +23,8 @@ A powerful Unreal Engine 5 editor plugin for profiling UObject memory usage, det
 2. Regenerate project files
 3. Build and launch the editor
 
+Or just download built plugin for your UE version in [releases](https://github.com/PsinaDev/Unreal-Object-Profiler/releases)
+
 ## Usage
 
 Open the Object Profiler window via:
