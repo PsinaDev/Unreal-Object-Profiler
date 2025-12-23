@@ -1,0 +1,23 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ObjectProfiler",
+	"Description": "Unreal Engine editor tool for profiling objects in memory",
+	"Category": "Other",
+	"CreatedBy": "PsinaDev",
+	"CreatedByURL": "https://github.com/PsinaDev",
+	"DocsURL": "https://github.com/PsinaDev/Unreal-Object-Profiler",
+	"MarketplaceURL": "https://github.com/PsinaDev/Unreal-Object-Profiler",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ObjectProfilerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
