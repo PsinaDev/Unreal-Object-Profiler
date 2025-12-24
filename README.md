@@ -56,9 +56,9 @@ Open the Object Profiler window via:
 - **Hot** — Show only classes with high activity rates
 
 ## Requirements
-
-- Unreal Engine 5.6+
-
+- Unreal Engine **5.4+**
+  Built and tested on UE 5.4 - UE 5.6.  
+  
 ## License
 
 MIT License
