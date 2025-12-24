@@ -699,7 +699,11 @@ void FObjectProfilerCore::TickEnumeration()
 			continue;
 		}
 		
+#if ENGINE_MAJOR_VERSION >= 5 && ENGINE_MINOR_VERSION >= 6
 		UObject* Obj = static_cast<UObject*>(ObjectItem->GetObject());
+#else
+		UObject* Obj = static_cast<UObject*>(ObjectItem->Object);
+#endif
 		
 		if (Obj && IsValid(Obj) && !Obj->HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
 		{

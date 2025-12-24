@@ -8,14 +8,16 @@ public class ObjectProfilerEditor : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange([
+		PublicDependencyModuleNames.AddRange(new string[]
+		{
 			"Core",
 			"CoreUObject",
 			"Engine",
 			"InputCore"
-		]);
+		});
 
-		PrivateDependencyModuleNames.AddRange([
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
 			"Slate",
 			"SlateCore",
 			"EditorStyle",
@@ -28,6 +30,6 @@ public class ObjectProfilerEditor : ModuleRules
 			"JsonUtilities",
 			"ContentBrowser",
 			"UMG"
-		]);
+		});
 	}
 }
