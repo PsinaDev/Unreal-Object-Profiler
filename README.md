@@ -57,6 +57,7 @@ Open the Object Profiler window via:
 
 ## Requirements
 - Unreal Engine **5.4+**
+
 Built and tested on UE 5.4 - UE 5.6.  
   
 ## License
